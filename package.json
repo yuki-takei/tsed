@@ -150,62 +150,12 @@
     "mongoose": "5.12.2"
   },
   "monorepo": {
-    "productionBranch": "production",
-    "developBranch": "production",
+    "productionBranch": "feat-cron-job",
+    "developBranch": "feat-cron-job",
     "npmAccess": "public",
     "ignoreSyncDependencies": [
       "express",
       "@types/express"
-    ],
-    "ghpages": {
-      "dir": "./docs/.vuepress/dist",
-      "url": "https://github.com/TypedProject/tsed.git",
-      "branch": "gh-pages",
-      "cname": "tsed.io"
-    },
-    "examples": {
-      "dir": "./examples",
-      "repositories": {
-        "getting-started": {
-          "url": "https://github.com/TypedProject/tsed-getting-started.git"
-        },
-        "aws": {
-          "url": "https://github.com/TypedProject/tsed-example-aws.git"
-        },
-        "mongoose": {
-          "url": "https://github.com/TypedProject/tsed-example-mongoose.git"
-        },
-        "multer": {
-          "url": "https://github.com/TypedProject/tsed-example-multer.git"
-        },
-        "passportjs": {
-          "url": "https://github.com/TypedProject/tsed-example-passportjs.git"
-        },
-        "typeorm": {
-          "url": "https://github.com/TypedProject/tsed-example-typeorm.git"
-        },
-        "session": {
-          "url": "https://github.com/TypedProject/tsed-example-session.git"
-        },
-        "socketio": {
-          "url": "https://github.com/TypedProject/tsed-example-socketio.git"
-        },
-        "passport-azure-ad": {
-          "url": "https://github.com/TypedProject/tsed-example-passport-azure-ad.git"
-        },
-        "vuejs": {
-          "url": "https://github.com/TypedProject/tsed-example-vuejs.git"
-        },
-        "react": {
-          "url": "https://github.com/TypedProject/tsed-example-react.git"
-        },
-        "graphql": {
-          "url": "https://github.com/TypedProject/tsed-example-graphql.git"
-        },
-        "webpack": {
-          "url": "https://github.com/TypedProject/tsed-example-webpack.git"
-        }
-      }
-    }
+    ]
   }
 }

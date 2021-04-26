@@ -3,7 +3,8 @@ module.exports = {
     "production",
     {name: "alpha", prerelease: true, channel: "alpha"},
     {name: "beta", prerelease: true, channel: "beta"},
-    {name: "rc", prerelease: true, channel: "rc"}
+    {name: "rc", prerelease: true, channel: "rc"},
+    {name: "cron", prerelease: true, channel: "cron"}
   ],
   verifyConditions: ["@semantic-release/github", "@semantic-release/npm", "@tsed/monorepo-utils/semantic-release"],
   analyzeCommits: ["@semantic-release/commit-analyzer"],

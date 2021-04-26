@@ -1,8 +1,8 @@
 {
   "flow": "gflow",
   "remote": "origin",
-  "develop": "production",
-  "production": "production",
+  "develop": "feat-cron-job",
+  "production": "feat-cron-job",
   "ignores": [],
   "syncAfterFinish": false,
   "postFinish": "",
